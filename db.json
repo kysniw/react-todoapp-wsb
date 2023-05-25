@@ -1,0 +1,14 @@
+{
+  "todoList": [
+    {
+      "id": 1,
+      "todoText": "Example text",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "todoText": "Next example to do",
+      "isActive": false
+    }
+  ]
+}
