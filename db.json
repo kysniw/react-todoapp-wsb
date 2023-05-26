@@ -1,14 +1,19 @@
 {
-  "todoList": [
+  "tasksList": [
     {
       "id": 1,
-      "todoText": "Example text",
-      "isActive": true
+      "taskText": "Example text",
+      "isDone": false
     },
     {
       "id": 2,
-      "todoText": "Next example to do",
-      "isActive": false
+      "taskText": "Next example to do",
+      "isDone": false
+    },
+    {
+      "taskText": "Nowy sss",
+      "isDone": false,
+      "id": 3
     }
   ]
 }

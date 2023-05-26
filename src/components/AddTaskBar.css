@@ -1,0 +1,21 @@
+.add-task {
+  background-color: #8f8f8f;
+  padding: 1rem;
+}
+
+.add-task__title {
+  padding: 0;
+  margin: 0;
+}
+
+.add-task__input {
+  display: block;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.add-task__input:focus {
+  border: none;
+}
