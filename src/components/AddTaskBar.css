@@ -1,21 +1,37 @@
 .add-task {
-  background-color: #8f8f8f;
+  /* background-color: #8f8f8f; */
   padding: 1rem;
+  border-radius: 1.5rem;
+  border: 0.4rem solid rgb(29, 58, 58);
 }
 
 .add-task__title {
   padding: 0;
   margin: 0;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.add-task__form {
+  display: flex;
 }
 
 .add-task__input {
-  display: block;
   border: none;
+  width: 100%;
+  color: white;
+  caret-color: white;
+  background-color: #5d7579;
   font-size: 2rem;
-  padding: 1rem 1.5rem;
+  padding: 1.2rem 1.7rem;
   border-radius: 1rem;
 }
 
+.add-task__input::placeholder {
+  color: rgb(192, 192, 192);
+}
+
 .add-task__input:focus {
-  border: none;
+  outline: 0.1rem solid white;
 }

@@ -1,0 +1,7 @@
+.tasks-list {
+  /* background-color: rgb(49, 49, 49); */
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+}

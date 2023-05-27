@@ -11,6 +11,7 @@ function AddTaskBar() {
     e.preventDefault();
     if (text.length > 2) {
       createTask(text);
+      setText("");
     }
   };
 
@@ -21,6 +22,7 @@ function AddTaskBar() {
         <input
           className="add-task__input"
           type="text"
+          placeholder="Wpisz zadanie..."
           value={text}
           onChange={(e) => setText(e.target.value)}
         />

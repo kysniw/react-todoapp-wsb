@@ -1,19 +1,24 @@
 {
   "tasksList": [
     {
-      "id": 1,
-      "taskText": "Example text",
-      "isDone": false
+      "taskText": "Zadanie numer 1",
+      "isDone": false,
+      "id": 1
     },
     {
-      "id": 2,
-      "taskText": "Next example to do",
-      "isDone": false
+      "taskText": "Zadanie numer 2",
+      "isDone": false,
+      "id": 2
     },
     {
-      "taskText": "Nowy sss",
+      "taskText": "Zadanie numer 3",
       "isDone": false,
       "id": 3
+    },
+    {
+      "taskText": "Wynieść śmieci",
+      "isDone": true,
+      "id": 4
     }
   ]
 }

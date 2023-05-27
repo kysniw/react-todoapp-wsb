@@ -1,0 +1,78 @@
+.task-row {
+  display: flex;
+  background-color: #5d7579;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  transition: 0.3s ease;
+}
+
+.task-row:first-of-type {
+  margin-bottom: 0;
+}
+
+.task-row__text {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  /* transition: 0.3s ease; */
+}
+
+.task-row__left-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 50%;
+}
+
+.task-row__done-button {
+  /* display: inline-flex; */
+  color: #5d7579;
+  border: 0.1rem solid rgb(255, 255, 255);
+  padding: 0.3rem;
+  font-size: 2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-right: 1rem;
+}
+
+.task-row__done-button:hover {
+  color: white;
+}
+
+.task-row__delete-button {
+  color: white;
+  font-size: 130%;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 2rem;
+}
+
+.task-row__delete-button:hover {
+  color: rgb(179, 24, 24);
+}
+
+.is-done-row {
+  background-color: #686868;
+}
+
+.is-done {
+  text-decoration: 0.3rem line-through rgb(29, 58, 58);
+  color: rgb(187, 187, 187);
+}
+
+.is-done-btn {
+  background-color: white;
+}
