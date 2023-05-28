@@ -16,3 +16,9 @@ body {
     font-size: 60%;
   }
 }
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
