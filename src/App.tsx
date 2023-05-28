@@ -4,6 +4,7 @@ import AddTaskBar from "./components/AddTaskBar";
 import TasksList from "./components/TasksList";
 
 import TasksContext from "./context/TasksContext";
+import ThemeButton from "./components/ThemeButton";
 
 function App() {
   const { getTasks } = useContext(TasksContext);
@@ -13,7 +14,8 @@ function App() {
   }, [getTasks]);
 
   return (
-    <div className="app-container dark-mode">
+    <div className="app-container app-container--dark-mode">
+      <ThemeButton />
       <div className="todo-app">
         <AddTaskBar />
         <TasksList />

@@ -7,19 +7,20 @@
   justify-content: center;
 }
 
+.app-container--dark-mode {
+  background-color: rgb(29, 58, 58);
+  color: white;
+}
+
 .todo-app {
   background-color: #435457;
   display: flex;
   width: 60%;
+  max-width: 1200px;
   flex-direction: column;
   align-items: stretch;
   padding: 3rem;
   border-radius: 2rem;
   font-size: 1.5rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.8);
-}
-
-.dark-mode {
-  background-color: rgb(29, 58, 58);
-  color: white;
 }
