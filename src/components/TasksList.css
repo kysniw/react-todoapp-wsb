@@ -1,7 +1,20 @@
 .tasks-list {
-  /* background-color: rgb(49, 49, 49); */
   margin-top: 3rem;
   padding: 1rem;
   display: flex;
   flex-direction: column-reverse;
+  overflow-y: auto;
+}
+
+.tasks-list__empty {
+  text-align: center;
+}
+
+.tasks-list::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+.tasks-list::-webkit-scrollbar-thumb {
+  background: rgb(29, 58, 58);
+  border-radius: 1rem;
 }

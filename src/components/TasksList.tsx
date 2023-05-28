@@ -15,7 +15,15 @@ function TasksList() {
     return <TaskRow key={task.id} task={task} />;
   });
 
-  return <div className="tasks-list">{renderedTasks}</div>;
+  return (
+    <div className="tasks-list">
+      {renderedTasks.length > 0 ? (
+        renderedTasks
+      ) : (
+        <h2 className="tasks-list__empty">Brak zadań do wyświetlenia.</h2>
+      )}
+    </div>
+  );
 }
 
 export default TasksList;
